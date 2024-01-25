@@ -1,6 +1,4 @@
 import {
-  ADDRESS_ZERO,
-  BIG_DECIMAL_1E18,
   BIG_DECIMAL_ONE,
   BIG_DECIMAL_ZERO,
   DAI,
@@ -13,8 +11,7 @@ import {
   USDC_WETH_PAIR,
   USDT,
   USDT_WETH_PAIR,
-  WHITELIST,
-} from 'const'
+} from './const'
 import { Address, BigDecimal, BigInt, dataSource, ethereum, log } from '@graphprotocol/graph-ts'
 import { Pair, Token } from '../generated/schema'
 
